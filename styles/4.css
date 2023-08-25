@@ -1,0 +1,249 @@
+@import url('https://fonts.cdnfonts.com/css/swis721-bt');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Swis721 BT', sans-serif;
+    color: var(--textcolor);
+}
+body{
+    background: #FAFAFA;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --textcolor: #fff;
+    --maincolor: #354a9a;
+}
+#header{
+    display: flex;
+    top: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 140px;
+    position: fixed;
+    z-index: 5;
+    background: transparent;
+   
+}
+nav{
+    display: flex;
+    margin-right: 40px;
+}
+section{
+    min-height: 100vh;
+}
+#white-circle img{
+    max-height: 70px;
+
+}
+nav{
+    display: flex;
+  
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 39px;
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+    
+}
+#white-circle{
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 43px;
+}
+#about-home{
+    height: 150vh;
+    background: #F5F5F5;
+}
+#about-back{
+    height: 27.5%;
+    background: url('/images/about.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#about-back h1{
+    text-align: center;
+    padding-top: 13.7%;
+    font-size: 60px;
+    backdrop-filter: brightness(0.6);
+    height: 100%;
+}
+#container7{
+    min-height: 70vh;
+    background: #fff;
+    max-width: 63.5%;
+    margin-left: 280px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+#contact-content{
+    margin: 50px;
+    padding-top: 50px;
+    padding-left: 60px;
+    width: 100%;
+    margin-left: 0px;
+
+}
+#contact-content h1{
+    color: black;
+    font-size: 40px;
+}
+
+#contact-content p{
+    color: black;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 17px;
+}
+#inputs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+input{
+    width: 47%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background: #F5F5F5;
+    border: none;
+}
+textarea{
+    width: 95%;
+    padding: 20px;
+    background: #F5F5F5;
+    border: none;
+}
+#submit{
+    margin-top: 20px;
+    width: 95%;
+    background: #354a9a;
+}
+footer{
+    min-height: 55vh;
+    background-color: black;
+    padding: 0px 160px;
+    display: flex;
+
+    overflow: hidden;
+}
+#comp1{
+    
+    height: 55vh;
+    width: 400px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#comp1 img{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    
+   
+}
+#medias{
+    display: flex;
+
+}
+#social{
+    background: #383838;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: .5s;
+    border: none;
+}
+#social:hover{
+    background: #354a9a;
+}
+#comp1 h2{
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 17px;
+}
+#comp2{
+   
+    height: 55vh;
+    width: 400px;
+    position: relative;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 150px;
+    
+}
+#comp2 h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#comp2 a{
+    font-size: 18px;
+    margin-top: 15px;
+}
+#comp2 #links{
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+#comp3{
+   
+    height: 55vh;
+    width: 400px;
+    position: relative;
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+#comp3 h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+#info{
+    font-size: 25px;
+   
+}
+#info h2{
+    font-size: 18px;
+    margin-top: 35px;
+    font-weight: 300;
+    color: #fff;
+}
+#info i{
+    color: #354a9a;
+}
+footer #top{
+    position: absolute;
+    width: 50px;
+    color: black;
+    font-size: 25px;
+    line-height: 48px;
+    border-radius: 5px;
+   padding-top: 0%;
+   margin-top: 20%;
+   margin-left: 83%;
+   text-align: center;
+   background-color: #354a9a;
+}
